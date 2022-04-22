@@ -13,10 +13,10 @@ const Products = () => {
   const [products, setProducts] = useProducts();
   return (
     <div className="container">
-      <h2 className="text-center mt-2 mb-5">Products: {products.length}</h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <h2 className="text-center mt-2 mb-5">Products</h2>
+      <div className="row row-cols-1 row-cols-md-3 g-4">
         {products.map((product) => (
-          <Product key={product.id} product={product} />
+          <Product key={product._id} product={product} />
         ))}
       </div>
     </div>
