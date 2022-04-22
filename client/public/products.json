@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ENGINE DIAGNOSTIC",
+    "price": "300",
+    "quantity": 2,
+    "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "WHEEL ALIGNMENT",
+    "price": "100",
+    "quantity": 3,
+    "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "OIL CHANGING",
+    "price": "150",
+    "quantity": 4,
+    "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+  }
+]

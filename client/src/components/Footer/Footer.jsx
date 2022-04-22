@@ -5,7 +5,9 @@ const Footer = () => {
     <div>
       <footer className="text-center mt-5">
         <p>
-          <small>Copyright © 2022 All Rights Reserved By Sujon.</small>
+          <small>
+            Copyright © {new Date().getFullYear()} All Rights Reserved By Sujon.
+          </small>
         </p>
       </footer>
     </div>
