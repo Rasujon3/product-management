@@ -36,7 +36,12 @@ const Product = ({ product }) => {
         </div>
         <div className="card-footer">
           <div className="d-flex justify-content-between">
-            <button className="btn btn-primary">Update</button>
+            <button
+              className="btn btn-primary"
+              onClick={() => navigate(`/updateproduct/${_id}`)}
+            >
+              Update
+            </button>
             <button
               className="btn btn-primary"
               onClick={() => handleDelete(_id)}
