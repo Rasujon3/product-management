@@ -8,7 +8,6 @@ const AddProducts = () => {
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
   const onSubmit = (data) => {
-    console.log(data);
     const url = `http://localhost:5000/products`;
     fetch(url, {
       method: "POST",
@@ -19,7 +18,6 @@ const AddProducts = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         toast("Product Added Successfully 😊😊");
         setTimeout(() => {
           navigate("/home");
